@@ -8,7 +8,19 @@ struct IndexHandler: MustachePageHandler {
     
     func extendValuesForResponse(context contxt: MustacheWebEvaluationContext, collector: MustacheEvaluationOutputCollector) {
         var values = MustacheEvaluationContext.MapType()
-        values["value"] = "hello"
+        var ary = [Any]()
+        
+        let dbHandler = DB()
+        let data = dbHandler.getList()
+        
+        for i in 0..<data.count {
+            var thispost = [String: String]()
+            thispost["title"] = data[i]["title"]
+            thispost["synopsis"] = data[i]["synopsis"]
+            thispost["titlesanitized"] = data[i]["title"]!.slugify()
+            ary.append(thispost)
+        }
+        values["posts"] = ary
         
         contxt.extendValues(with: values)
         do {
@@ -21,3 +33,4 @@ struct IndexHandler: MustachePageHandler {
         }
     }
 }
+

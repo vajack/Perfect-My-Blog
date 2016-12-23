@@ -1,0 +1,60 @@
+<!doctype html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Skate Life</title>
+	{{> style}}
+</head>
+
+<div id="header">
+	<div id="header-inner">
+		<div id="header-content">
+			<h1 id="header-name">
+				<a href="/" accesskey="1">Skate Life</a>
+			</h1>
+			<h2 id="header-description">
+				スケボとアプリ開発中心に記事書いてます
+			</h2>
+		</div>
+	</div>
+</div>
+
+<body>
+	<div>
+		<ul class="category">
+			<li>Skate</li>
+			<li id="category-center">Swift</li>
+			<li>Other</li>			
+		</ul>
+	</div>
+</body>
+
+<body>
+	<div class="page-cover">
+		<div class="main-column">
+			this place is main column
+		</div>
+
+		<div class="side-column">
+			<div class="profile">
+				<h2>Profile</h2>
+				<li>Name:Gami</li>
+				<a href="http://twitter.com/skatingvajack">
+					<li>Twitter:@skatingvajack</li>				
+				</a>
+				<li>Deck:ZERO</li>
+				<li>Shoes:DC</li>
+				<li>Languages:Swift,Ruby,html,css</li>
+			</div>
+
+			<div class="recent-post">
+				<h2>Recents</h2>
+				{{#posts}}
+				<li>
+					<a href="/">{{title}}</a>
+				</li>
+				{{/posts}}
+			</div>
+		</div>
+	</div>
+</body>

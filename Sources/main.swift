@@ -11,6 +11,10 @@ server.documentRoot = "./webroot"
 
 var routs = Routes()
 
+var dbHandler = DB()
+dbHandler.create()
+dbHandler.populate()
+
 routs.add(method: .get, uri: "/", handler: {
     request, response in
     

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_759"
+               BlueprintIdentifier = "OBJ_760"
                BuildableName = "PerfectLib.framework"
                BlueprintName = "PerfectLib"
                ReferencedContainer = "container:myBlog.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_775"
+               BlueprintIdentifier = "OBJ_776"
                BuildableName = "COpenSSL.framework"
                BlueprintName = "COpenSSL"
                ReferencedContainer = "container:myBlog.xcodeproj">
@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1463"
+               BlueprintIdentifier = "OBJ_1464"
                BuildableName = "PerfectThread.framework"
                BlueprintName = "PerfectThread"
                ReferencedContainer = "container:myBlog.xcodeproj">
@@ -56,7 +56,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1471"
+               BlueprintIdentifier = "OBJ_1472"
                BuildableName = "PerfectNet.framework"
                BlueprintName = "PerfectNet"
                ReferencedContainer = "container:myBlog.xcodeproj">
@@ -70,7 +70,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1486"
+               BlueprintIdentifier = "OBJ_1487"
                BuildableName = "PerfectHTTP.framework"
                BlueprintName = "PerfectHTTP"
                ReferencedContainer = "container:myBlog.xcodeproj">
@@ -84,7 +84,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1509"
+               BlueprintIdentifier = "OBJ_1510"
                BuildableName = "CHTTPParser.framework"
                BlueprintName = "CHTTPParser"
                ReferencedContainer = "container:myBlog.xcodeproj">
@@ -98,7 +98,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1527"
+               BlueprintIdentifier = "OBJ_1528"
                BuildableName = "PerfectHTTPServer.framework"
                BlueprintName = "PerfectHTTPServer"
                ReferencedContainer = "container:myBlog.xcodeproj">
@@ -112,7 +112,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1552"
+               BlueprintIdentifier = "OBJ_1553"
                BuildableName = "PerfectMustache.framework"
                BlueprintName = "PerfectMustache"
                ReferencedContainer = "container:myBlog.xcodeproj">
@@ -126,7 +126,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1569"
+               BlueprintIdentifier = "OBJ_1570"
                BuildableName = "SQLite.framework"
                BlueprintName = "SQLite"
                ReferencedContainer = "container:myBlog.xcodeproj">
@@ -140,7 +140,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1576"
+               BlueprintIdentifier = "OBJ_1577"
                BuildableName = "SwiftString.framework"
                BlueprintName = "SwiftString"
                ReferencedContainer = "container:myBlog.xcodeproj">
@@ -154,7 +154,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1584"
+               BlueprintIdentifier = "OBJ_1585"
                BuildableName = "myBlog"
                BlueprintName = "myBlog"
                ReferencedContainer = "container:myBlog.xcodeproj">
@@ -185,7 +185,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_759"
+            BlueprintIdentifier = "OBJ_760"
             BuildableName = "PerfectLib.framework"
             BlueprintName = "PerfectLib"
             ReferencedContainer = "container:myBlog.xcodeproj">
